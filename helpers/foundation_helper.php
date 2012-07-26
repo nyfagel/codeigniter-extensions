@@ -105,6 +105,7 @@ if ( ! function_exists('_number_to_text')) {
 		$number = ($number == 11) ? 'eleven' : $number;
 		$number = ($number == 12) ? 'twelve' : $number;
 		return $number;
+	}
 }
 
 ?>
