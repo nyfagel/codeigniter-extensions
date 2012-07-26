@@ -7,6 +7,7 @@ These helpers are included in the package:
 * Foundation Helper
 * Datecalc Helper
 * Site Security Helper
+* More HTML Helper
 
 ## Foundation Helper
 
@@ -47,5 +48,9 @@ TODO: Add description.
 TODO: Add description.
 
 ## Site Security Helper
+
+TODO: Add description.
+
+## More HTML Helper
 
 TODO: Add description.
