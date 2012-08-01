@@ -48,9 +48,10 @@ if ( ! function_exists('div')) {
 	 * @param string $class class of this div.
 	 * @return string a string with the generated HTML.
 	 */
-	function div($data = '', $class = '') {
+	function div($data = '', $class = '', $id = '') {
 		$class = ($class != '') ? ' class="'.$class.'"' : $class;
-		return "<div".$class.">".$data."</div>";
+		$id = ($id != '') ? ' id="'.$id.'"' : $id;
+		return "<div".$class.$id.">".$data."</div>";
 	}
 }
 
@@ -75,6 +76,12 @@ if ( ! function_exists('div_close')) {
 	 */
 	function div_close($num = 1) {
 		return str_repeat("</div>",$num);
+	}
+}
+
+if ( ! function_exists('hr')) {
+	function hr() {
+		return '<hr/>';
 	}
 }
 
