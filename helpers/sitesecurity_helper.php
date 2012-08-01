@@ -31,11 +31,11 @@ if ( ! function_exists('very_random_string')) {
 		}
 		srand((double)microtime()*1000000);
 		$mod = strlen($characters);
-		$randPassword = '';
+		$randstring = '';
 		while ($length--) {
-			$randPassword .= substr($characters,rand()%$mod,1);
+			$randstring .= substr($characters,rand()%$mod,1);
 		}
-		return $randPassword;
+		return $randstring;
 	}
 }
 

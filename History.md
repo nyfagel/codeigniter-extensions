@@ -1,4 +1,12 @@
 
+0.5 / 2012-08-01 
+==================
+
+  * Updating the foundation helper.
+  * Updating the morehtml helper.
+  * Updating the sitesecurity helper.
+  * Adding the foundation for helpers.
+
 0.4 / 2012-07-26 
 ==================
 
